@@ -39,41 +39,6 @@
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"ExampleApp" withExtension:@"html"];
     // NSLog(@"JsBridge: index.html = %@", [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil]);
     [self.webView loadRequest:[NSURLRequest requestWithURL:url]];
-    
-    //////////////////////////////////////////////////////
-    // TEST THE BRIDGE - REMARK THESE LINES IN PRODUCTION
-    //////////////////////////////////////////////////////
-    
-//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-//        // test a simple function with string argument and string result
-//    
-//        [self executeJsFunction:@"iosGetPassphrase" withArg:nil callback:^(NSString *res)
-//         {
-//             NSLog(@"JsBridge: iosGetPassphrase returned ***%@***", res);
-//         }];
-//        
-//        [self executeJsFunction:@"getGreetingTest" withArg:@"Daniel" callback:^(NSString *res)
-//        {
-//            NSLog(@"JsBridge: getGreetingTest returned ***%@***", res);
-//        }];
-//        // test alert() and console.log() which we use for debugging
-//        [self executeJsFunction:@"debugLogTest" withArg:nil callback:^(NSString *res)
-//        {
-//            NSLog(@"JsBridge: debugLogTest returned %@", res);
-//        }];
-//        // test that we can return strange characters
-//        [self executeJsFunction:@"strangeCharsReturnTest" withArg:nil callback:^(NSString *res)
-//        {
-//            NSLog(@"JsBridge: strangeCharsReturnTest returned %@", res);
-//        }];
-//        // test that we can return complex objects
-//        [self executeJsFunction:@"returnObjectTest" withArg:nil callback:^(NSString *res)
-//        {
-//            NSData *resData = [res dataUsingEncoding:NSUTF8StringEncoding];
-//            id object = [NSJSONSerialization JSONObjectWithData:resData options:0 error:nil];
-//            NSLog(@"JsBridge: returnObjectTest returned %@", object);
-//        }];
-//    });
 }
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
