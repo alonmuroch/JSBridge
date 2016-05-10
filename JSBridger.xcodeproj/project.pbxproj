@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E10565F01CE0E754002626A9 /* js in Resources */ = {isa = PBXBuildFile; fileRef = E10565EF1CE0E754002626A9 /* js */; };
+		E10565F11CE0E754002626A9 /* js in Resources */ = {isa = PBXBuildFile; fileRef = E10565EF1CE0E754002626A9 /* js */; };
+		E19D49701CE0B0B5002A839A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D496F1CE0B0B5002A839A /* main.m */; };
+		E19D49731CE0B0B5002A839A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D49721CE0B0B5002A839A /* AppDelegate.m */; };
+		E19D49761CE0B0B5002A839A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D49751CE0B0B5002A839A /* ViewController.m */; };
+		E19D49791CE0B0B5002A839A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19D49771CE0B0B5002A839A /* Main.storyboard */; };
+		E19D497B1CE0B0B5002A839A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19D497A1CE0B0B5002A839A /* Assets.xcassets */; };
+		E19D497E1CE0B0B5002A839A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19D497C1CE0B0B5002A839A /* LaunchScreen.storyboard */; };
+		E19D498D1CE0B0BB002A839A /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D498C1CE0B0BB002A839A /* KeyboardViewController.m */; };
+		E19D49911CE0B0BB002A839A /* keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E19D49891CE0B0BB002A839A /* keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E19D49991CE0B0D6002A839A /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = E19D49971CE0B0D6002A839A /* ExampleApp.html */; };
+		E19D499A1CE0B0D6002A839A /* auth.js in Resources */ = {isa = PBXBuildFile; fileRef = E19D49981CE0B0D6002A839A /* auth.js */; };
+		E19D49A01CE0B0E5002A839A /* JsBridgeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D499C1CE0B0E5002A839A /* JsBridgeHelper.m */; };
+		E19D49A11CE0B0E5002A839A /* UIWebView+JavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D499F1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.m */; };
+		E19D49A31CE0B0EC002A839A /* JsBridgeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D499C1CE0B0E5002A839A /* JsBridgeHelper.m */; };
+		E19D49A41CE0B0EC002A839A /* JsBridgeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E19D499D1CE0B0E5002A839A /* JsBridgeHelper.h */; };
+		E19D49A51CE0B0EC002A839A /* UIWebView+JavaScriptAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = E19D499E1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.h */; };
+		E19D49A61CE0B0EC002A839A /* UIWebView+JavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E19D499F1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.m */; };
+		E19D49A71CE0B0EF002A839A /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = E19D49971CE0B0D6002A839A /* ExampleApp.html */; };
+		E19D49A81CE0B0EF002A839A /* auth.js in Resources */ = {isa = PBXBuildFile; fileRef = E19D49981CE0B0D6002A839A /* auth.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19D498F1CE0B0BB002A839A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19D49631CE0B0B5002A839A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19D49881CE0B0BB002A839A;
+			remoteInfo = keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E19D49951CE0B0BB002A839A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E19D49911CE0B0BB002A839A /* keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E10565EF1CE0E754002626A9 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		E19D496B1CE0B0B5002A839A /* JSBridger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSBridger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19D496F1CE0B0B5002A839A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E19D49711CE0B0B5002A839A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E19D49721CE0B0B5002A839A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E19D49741CE0B0B5002A839A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E19D49751CE0B0B5002A839A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19D49781CE0B0B5002A839A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19D497A1CE0B0B5002A839A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19D497D1CE0B0B5002A839A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19D497F1CE0B0B5002A839A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19D49891CE0B0BB002A839A /* keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19D498B1CE0B0BB002A839A /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		E19D498C1CE0B0BB002A839A /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		E19D498E1CE0B0BB002A839A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19D49971CE0B0D6002A839A /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		E19D49981CE0B0D6002A839A /* auth.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = auth.js; sourceTree = "<group>"; };
+		E19D499C1CE0B0E5002A839A /* JsBridgeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsBridgeHelper.m; sourceTree = "<group>"; };
+		E19D499D1CE0B0E5002A839A /* JsBridgeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsBridgeHelper.h; sourceTree = "<group>"; };
+		E19D499E1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+JavaScriptAlert.h"; sourceTree = "<group>"; };
+		E19D499F1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+JavaScriptAlert.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19D49681CE0B0B5002A839A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19D49861CE0B0BB002A839A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E19D49621CE0B0B5002A839A = {
+			isa = PBXGroup;
+			children = (
+				E19D496D1CE0B0B5002A839A /* JSBridger */,
+				E19D498A1CE0B0BB002A839A /* keyboard */,
+				E19D496C1CE0B0B5002A839A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E19D496C1CE0B0B5002A839A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19D496B1CE0B0B5002A839A /* JSBridger.app */,
+				E19D49891CE0B0BB002A839A /* keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19D496D1CE0B0B5002A839A /* JSBridger */ = {
+			isa = PBXGroup;
+			children = (
+				E19D499B1CE0B0DB002A839A /* bridge */,
+				E19D49961CE0B0C7002A839A /* html and js */,
+				E19D49711CE0B0B5002A839A /* AppDelegate.h */,
+				E19D49721CE0B0B5002A839A /* AppDelegate.m */,
+				E19D49741CE0B0B5002A839A /* ViewController.h */,
+				E19D49751CE0B0B5002A839A /* ViewController.m */,
+				E19D49771CE0B0B5002A839A /* Main.storyboard */,
+				E19D497A1CE0B0B5002A839A /* Assets.xcassets */,
+				E19D497C1CE0B0B5002A839A /* LaunchScreen.storyboard */,
+				E19D497F1CE0B0B5002A839A /* Info.plist */,
+				E19D496E1CE0B0B5002A839A /* Supporting Files */,
+			);
+			path = JSBridger;
+			sourceTree = "<group>";
+		};
+		E19D496E1CE0B0B5002A839A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E19D496F1CE0B0B5002A839A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E19D498A1CE0B0BB002A839A /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E19D498B1CE0B0BB002A839A /* KeyboardViewController.h */,
+				E19D498C1CE0B0BB002A839A /* KeyboardViewController.m */,
+				E19D498E1CE0B0BB002A839A /* Info.plist */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		E19D49961CE0B0C7002A839A /* html and js */ = {
+			isa = PBXGroup;
+			children = (
+				E10565EF1CE0E754002626A9 /* js */,
+				E19D49971CE0B0D6002A839A /* ExampleApp.html */,
+				E19D49981CE0B0D6002A839A /* auth.js */,
+			);
+			name = "html and js";
+			sourceTree = "<group>";
+		};
+		E19D499B1CE0B0DB002A839A /* bridge */ = {
+			isa = PBXGroup;
+			children = (
+				E19D499C1CE0B0E5002A839A /* JsBridgeHelper.m */,
+				E19D499D1CE0B0E5002A839A /* JsBridgeHelper.h */,
+				E19D499E1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.h */,
+				E19D499F1CE0B0E5002A839A /* UIWebView+JavaScriptAlert.m */,
+			);
+			name = bridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E19D49A21CE0B0EA002A839A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19D49A51CE0B0EC002A839A /* UIWebView+JavaScriptAlert.h in Headers */,
+				E19D49A41CE0B0EC002A839A /* JsBridgeHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E19D496A1CE0B0B5002A839A /* JSBridger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19D49821CE0B0B5002A839A /* Build configuration list for PBXNativeTarget "JSBridger" */;
+			buildPhases = (
+				E19D49671CE0B0B5002A839A /* Sources */,
+				E19D49681CE0B0B5002A839A /* Frameworks */,
+				E19D49691CE0B0B5002A839A /* Resources */,
+				E19D49951CE0B0BB002A839A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19D49901CE0B0BB002A839A /* PBXTargetDependency */,
+			);
+			name = JSBridger;
+			productName = JSBridger;
+			productReference = E19D496B1CE0B0B5002A839A /* JSBridger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19D49881CE0B0BB002A839A /* keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19D49921CE0B0BB002A839A /* Build configuration list for PBXNativeTarget "keyboard" */;
+			buildPhases = (
+				E19D49851CE0B0BB002A839A /* Sources */,
+				E19D49861CE0B0BB002A839A /* Frameworks */,
+				E19D49871CE0B0BB002A839A /* Resources */,
+				E19D49A21CE0B0EA002A839A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboard;
+			productName = keyboard;
+			productReference = E19D49891CE0B0BB002A839A /* keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19D49631CE0B0B5002A839A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "alon muroch";
+				TargetAttributes = {
+					E19D496A1CE0B0B5002A839A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E19D49881CE0B0BB002A839A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E19D49661CE0B0B5002A839A /* Build configuration list for PBXProject "JSBridger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19D49621CE0B0B5002A839A;
+			productRefGroup = E19D496C1CE0B0B5002A839A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19D496A1CE0B0B5002A839A /* JSBridger */,
+				E19D49881CE0B0BB002A839A /* keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19D49691CE0B0B5002A839A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19D497E1CE0B0B5002A839A /* LaunchScreen.storyboard in Resources */,
+				E10565F01CE0E754002626A9 /* js in Resources */,
+				E19D497B1CE0B0B5002A839A /* Assets.xcassets in Resources */,
+				E19D49791CE0B0B5002A839A /* Main.storyboard in Resources */,
+				E19D49991CE0B0D6002A839A /* ExampleApp.html in Resources */,
+				E19D499A1CE0B0D6002A839A /* auth.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19D49871CE0B0BB002A839A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19D49A81CE0B0EF002A839A /* auth.js in Resources */,
+				E10565F11CE0E754002626A9 /* js in Resources */,
+				E19D49A71CE0B0EF002A839A /* ExampleApp.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19D49671CE0B0B5002A839A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19D49A11CE0B0E5002A839A /* UIWebView+JavaScriptAlert.m in Sources */,
+				E19D49761CE0B0B5002A839A /* ViewController.m in Sources */,
+				E19D49A01CE0B0E5002A839A /* JsBridgeHelper.m in Sources */,
+				E19D49731CE0B0B5002A839A /* AppDelegate.m in Sources */,
+				E19D49701CE0B0B5002A839A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19D49851CE0B0BB002A839A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19D498D1CE0B0BB002A839A /* KeyboardViewController.m in Sources */,
+				E19D49A61CE0B0EC002A839A /* UIWebView+JavaScriptAlert.m in Sources */,
+				E19D49A31CE0B0EC002A839A /* JsBridgeHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19D49901CE0B0BB002A839A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19D49881CE0B0BB002A839A /* keyboard */;
+			targetProxy = E19D498F1CE0B0BB002A839A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19D49771CE0B0B5002A839A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19D49781CE0B0B5002A839A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19D497C1CE0B0B5002A839A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19D497D1CE0B0B5002A839A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19D49801CE0B0B5002A839A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19D49811CE0B0B5002A839A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19D49831CE0B0B5002A839A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSBridger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.paykey.JSBridger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E19D49841CE0B0B5002A839A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSBridger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.paykey.JSBridger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E19D49931CE0B0BB002A839A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.paykey.JSBridger.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E19D49941CE0B0BB002A839A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.paykey.JSBridger.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19D49661CE0B0B5002A839A /* Build configuration list for PBXProject "JSBridger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19D49801CE0B0B5002A839A /* Debug */,
+				E19D49811CE0B0B5002A839A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19D49821CE0B0B5002A839A /* Build configuration list for PBXNativeTarget "JSBridger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19D49831CE0B0B5002A839A /* Debug */,
+				E19D49841CE0B0B5002A839A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19D49921CE0B0BB002A839A /* Build configuration list for PBXNativeTarget "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19D49931CE0B0BB002A839A /* Debug */,
+				E19D49941CE0B0BB002A839A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E19D49631CE0B0B5002A839A /* Project object */;
+}
